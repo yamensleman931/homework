@@ -1,0 +1,26 @@
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+:root {
+    --bs-primary: #1a252f;
+    --bs-primary-rgb: 26, 37, 47;
+}
+
+.hero-img {
+    height: 380px;
+    object-fit: cover;
+}
+
+.event-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+}
+
+.event-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1) !important;
+}
